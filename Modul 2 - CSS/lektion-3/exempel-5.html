@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exempel 5</title>
+    <STYle>
+        h1 {
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+            font-size: 3rem;
+            font-variant: small-caps;
+            text-shadow: 4px 4px 4px #aaa;
+            text-align: center;
+        }
+
+        /* Grouping (gruppering) */
+
+        /* h1, h2, h3, h4, h5, h6 {
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        } 
+         h1 {
+            font-size: 3rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        */
+
+        h1 {
+            /* har en font flera ord som arial så skrivs inom '' */
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+        }
+
+        div {
+            font-size: 2rem;
+        }
+
+        /* Detta funkar inte om vi inte ha roboto tillagd via googel stylesheet. eller om man har den innan men använd inga om inte tagit ner i länk från google */
+
+        /* body{
+            font-family: 'Roboto'
+        } 
+        strong{
+            font-family: Lato, sans-serif;
+        }
+        em{
+            font-family: Pacifico, cursive;
+            allt detta kan man kopiera i formatet ovan (vanligt css och ingen länk) där man kopierar länken från google.
+        }
+        */
+
+        p {
+            line-height: 1.5em;
+        }
+    </STYle>
+    <!--Exakt som att länka en fil stylesheet cssfil: men via en hemsida för fonts. här kan man lägga font-länk från ex google fints. <link href="https:// osv" rel="stylesheet" alt +7 ger | -->
+</head>
+
+<body>
+    <h1>Textformatering</h1>
+
+    <h2>Teckensnitt</h2>
+    <p>Change teckensnitt with property font-family</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, quasi? Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Nulla possimus ea voluptatem deserunt. Aliquam harum, in et voluptas culpa hic enim consequuntur.
+        Fugiat exercitationem fugit reprehenderit iusto consequatur dignissimos odio?
+    </p>
+
+    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif">Change teckensnitt with property font-family</p>
+    <p style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Change teckensnitt with property font-family</p>
+    <!-- same size but in two ways: -->
+    <p style="font-size: 32px">Change teckensnitt with property font-family</p>
+    <p style="font-size: 2em">Change teckensnitt with property font-family</p>
+    <p style="font-size: 2rem">Change teckensnitt with property font-family</p>
+
+
+    <hr>
+    <!-- Dess har båda 2 som rem eller em men visas olika För att ena är i en div som också har 2 rem -->
+    <p style="font-size: 2rem">Change teckensnitt with property font-family</p>
+    <div>
+        <p style="font-size: 2em">Change teckensnitt with property font-family</p>
+
+    </div>
+
+    <hr>
+
+    <strong>
+        text text
+    </strong>
+    <!-- means emphasis "viktigt!" -->
+    <em></em>
+</body>
+
+</html>

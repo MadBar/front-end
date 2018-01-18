@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Länkar</h1>
+    <h2>Externa Länkar (Absoluta - måste skriva hela adressen http osv.)</h2>
+
+    <p>Skriver man aftonbladet.se tror webbläsaren that its a file with file ending '.se'</p>
+    <a target='_blank' href="aftonbladet.se">Ankartext (mellan start och sluttagg)Aftonbladet</a>
+    <br> br för att byta rad mellan taggar. Inline tagg: a, strong etc, hamnar efter varandra
+    <a target="_blank" href="https://static.googleusercontent.com/media/www.google.se/sv/se/intl/sv/webmasters/docs/search-engine-optimization-starter-guide-sv.pdf">grundhanbok om sökoptimering. Googels</a>
+    <p>
+
+
+        <a href="https://www.google.se/search?q=w3schools&oq=w3&aqs=chrome.1.69i57j0j69i60j69i65j69i60j69i65.2483j0j7&sourceid=chrome&ie=UTF-8">
+            Html Reference
+        </a>
+        <br> &lt;a&gt; -taggen för att skapa länkar. &lt;a target="_blank"&gt; för att öppna i ny flik.
+
+        <p> använd alt + up or down för att flytta en hel markerad rad i the code</p>
+        <a href="https://github.com/mahmudalhakim">Mahmuds github</a>
+        <br>
+
+        <a target="_blank" href="https://www.google.se/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiq8L2GltzYAhWBpywKHVtpACAQjBwIBA&url=http%3A%2F%2Fwww.folkuniversitetet.se%2Fglobalassets%2Fbildbanken%2Flokala-bilder%2Fstockholm%2Fpersonal%2Fmahmud-al-hakim_600x338.jpg%3Fwidth%3D768%26height%3D338&psig=AOvVaw1gGe7PGtuALqRPjRKo-Xmm&ust=1516181409523788">Länk till Bild på mahmud haha</a>
+        <p>Https eller http. Banker webb shoppar måste ha båda.. varför? </p>
+
+
+        <br>
+
+        <a target="_blank" href="https://www.youtube.com/watch?v=OSXpWrVmPxM">Video bara samma som med bild. In med Href bara)</a>
+        <a href=""></a>
+
+        <br>
+        <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Bra commandon VS Code (pdf)</a>
+
+        <br>
+        <h2>Interna Länkar (Relativa) </h2>
+        <p>Bör skrivas utan target. om ej en pdf eller särklijt skäl till att ööppna i annan flik. man ska inte lägga in protokollet
+            i modulen.. Mappen till vänster</p>
+
+        <a href="exempel_1.html">Exempel 1 (intern fil)</a>
+        <br>
+        <a href="exempel-7.html">Exempel 7 (intern fil)</a>
+
+        <ul>
+            <li>
+                <a href="exempel_1.html">Exempel 1 (intern fil)</a>
+            </li>
+            <li>
+                <a href="exempel-7.html">Exempel 7 (intern fil)</a>
+            </li>
+        </ul>
+
+        <p>Om man glömmer br som jag gör så kan man ju samla i en punklista för att få länkarna under varandra utan br haha.
+        </p>
+
+        <p>stå i kod på rad du vill copiera. alt + shift för att få en kopia under</p>
+        <ul>
+            <li>
+                Vill till fil som ligger i Mapp 1 (annan mapp än detta dokument ligger i) (intern fil)
+                <br>
+                <a href="wasAbsentSoEmpty.html">Funkar inte (som det inte bör), annan mapp.</a>
+            </li>
+            <p>
+                <li>
+                    Måste skriva '../' för att backa ur mapp sedan mappnamn man vill in i (för att nå filen), före filnamnet för att gå upp en
+                    mapp 1 annan mapp än detta dokument ligger i (intern fil)
+                    <br>
+                    <a href="../lektion1/wasAbsentSoEmpty.html">Funkar, annan mapp: wasAbsentSoEmpty.html</a>
+                </li>
+            </p>
+            <p>
+                <li>
+                    <a href="exempel-7.html">Funkar, i samma mapp: Exempel 7 (intern fil)</a>
+                </li>
+            </p>
+        </ul>
+        <hr>
+</body>
+
+</html>

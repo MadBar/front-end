@@ -1,0 +1,17 @@
+body{
+color: hotpink;
+color: rgb(240, 40, 140);
+background-color: #000;
+}
+h1{
+    color:blue; 
+}
+
+h1{
+    color: #00ff00;
+}
+
+p{
+    color: darkblue;
+    font-weight: bold
+}
